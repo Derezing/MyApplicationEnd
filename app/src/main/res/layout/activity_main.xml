@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎来到走你家族！"
+        android:textSize="20sp"
+        android:textColor="#FF00D91D"
+        android:background="@drawable/ic_cute"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="194dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="#d9b3c6"
+        android:text="手机号登陆"
+        android:textColor="#D94600"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,SpUsage"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="注册"
+        android:background="#FFD9B683"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText,SpUsage"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择登陆或注册"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_one"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--/>-->
+    <!--<include layout="@layout/top_circle_layout"/>-->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/id_viewpager"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="0dp">-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+    <include layout="@layout/bottom_layout" />
+</LinearLayout>
+

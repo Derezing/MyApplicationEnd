@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#000000"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/home_page"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/home_page_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/ic_home_page_red"
+            android:background="#0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="首页"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notification"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/notification_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/ic_notification_red"
+            android:background="#0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="通知中心"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/circle"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/circle_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/ic_circle_red"
+            android:background="#0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="圈子"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/personal_center"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/personal_center_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/ic_me_red"
+            android:background="#0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="个人中心"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
